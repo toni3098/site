@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .background-image {
+            background-image: url('chemin/vers/votre/image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top {
+            background-color: orange;
+            width: 20cm;
+            height: 2.2cm;
+            transform: translateY(276%);
+        }
+
+        .center {
+            background-color: pink;
+            width: 16cm;
+            height: 8.5cm;
+          transform: translateY(65%);
+        }
+
+        .bottom {
+            background-color: orange;
+            width: 16cm;
+            height: 2cm;
+            transform: translateX(-50%);
+            transform: translateY(250%);
+        }
+
+        .right {
+            background-color: Red;
+            width: 4cm;
+            height: 12.2cm;
+          transform : translateX(115%);
+            transform: translateY(-59%);
+            float :right;
+        }
+      h1{
+        text-align : center;
+      }
+      
+      p{
+        text-align : center;
+      }
+      
+      .top h1{
+        margin-right : 4.2cm;
+      }
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <div class="container">
+            <div class="rectangle top">
+              <h1 img crc = "">TITRE</h1>
+            </div>
+            <div class="rectangle center">
+              <h1>Titre 2</h1>
+              <p>paragraphe 1</p>
+              <p>paragraphe 2</p>
+              <p>paragraphe 3</p>
+            </div>
+            <div class="rectangle bottom"></div>
+            <div class="rectangle right">
+              <h1>Titre 3<h1>
+                <p img crc="">note 1</p>
+                <p img crc="">note 2</p>
+                <p img crc="">note 3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
